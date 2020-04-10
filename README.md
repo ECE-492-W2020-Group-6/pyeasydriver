@@ -17,7 +17,7 @@ rpigpio.setwarnings(False)
 
 Device.pin_factory = RPiGPIOFactory()
 
-if __name__=="__main__":
+if __name__ == "__main__":
     STEP_PIN = 20
     DIR_PIN = 21
     ENABLE_PIN = 25
